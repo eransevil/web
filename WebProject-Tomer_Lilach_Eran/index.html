@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="CSS/global.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+
+    <title>LectureMe</title>
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-sm bg-light bg-dark navbar-dark">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">LectureMe</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">דף הבית</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Includes/Categories.html">קטגוריות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" title="לא מומש" href="#">שאלות ותשובות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Includes/apply.html">להגשת מועמדות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Includes/about.html">אודות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">צור קשר</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="text-center">
+      <header>
+        <div id="home">
+          <div class="landing-text">
+            <h1 class="home_h1">LectureMe</h1>
+            <h3 class="home_h3">הרצאות עד הבית</h3>
+          </div>
+        </div>
+      </header>
+
+      <section class="container-fluid p-3 my-3 border">
+        <div class="row about_us text-center">
+          <div class="col-12">
+            <p class="about">
+              אתם מארגנים מפגש חברים ובא לכם להזמין מרצה שיגיע עד אליכם?
+            </p>
+            <p class="about"></p>
+            כאן תוכלו למצוא את מיטב המרצים ממגוון תחומים, ליצור איתם קשר ולהזמין
+            אותם עד אליכם <br /><br />
+              <a href = "Includes/Categories.html">
+            <button id="btn-order" class="button" href="Includes/Categories.html">
+              <span>להזמנת מרצה </span>
+            </button>
+              </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Background video 
+<div class="video-background-holder">
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="Videos/friends.mp4" type="video/mp4">
+      </video>
+  </div>
+  End -->
+
+      <section class="container-fluid padding">
+        <div class="row about text-center">
+          <div class="col-12">
+            <h3 class="display-4">הצצה קטנה למיטב המרצים שלנו</h3>
+            <br /><br />
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid" class="text-center">
+        <div class="row">
+          <div class="col-md-4">
+            <article class="card index">
+              <img
+                id="limor"
+                class="card-img-top"
+                src="Images/Profile_Images/lecturer1.jpg"
+              />
+              <div class="card-body">
+                <h4 class="card-title">לימור שחר</h4>
+                <p class="card-text">
+                  נטרופתית
+                </p>
+                <p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+                <a href="#" class="btn btn-outline-secondary">עוד על לימור</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card index">
+              <img
+                class="card-img-top"
+                src="Images/Profile_Images/lecturer4.jpg"
+              />
+              <div class="card-body">
+                <h4 class="card-title">צבי אהרון</h4>
+                <p class="card-text">
+                  יועץ עסקי וסופר
+                </p>
+                <p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+                <a href="#" class="btn btn-outline-secondary">עוד על צבי</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card index">
+              <img
+                class="card-img-top"
+                src="Images/Profile_Images/lecturer5.jpg"
+              />
+              <div class="card-body">
+                <h4 class="card-title">רועי לוי</h4>
+                <p class="card-text">
+                  יזם חברתי
+                </p>
+                <p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+                <a href="#" class="btn btn-outline-secondary">עוד על רועי</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="container justify-center">
+        <div
+          class="row about_us justify-content-center"
+          style="color: aliceblue;"
+        >
+          <div class="col-md-4 text-center">
+            <div class="card index">
+              <img
+                class="card-img-top"
+                src="Images/music-sound-communication-audio-2235.jpg"
+                style="opacity: 0.9;"
+              />
+              <div class="card-body">
+                <div class="card-img-overlay">
+                  <h2 class="card-title">רוצים להופיע פה?</h2>
+                  <p class="card-text">
+                      <a href ="apply.html">
+                    <button id="btn-candidacy" class="button" href="#">
+                      <span>להגשת מועמדות </span>
+                    </button>
+                       </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <h2>למה להזמין אצלנו?</h2>
+      <p>כי יש לנו את המרצים האיכותיים ביותר</p>
+      <h2>איפה?</h2>
+      <p>בכל מקום שתבחר מגיעים עד אליך</p>
+      <h2>איך?</h2>
+      <p>
+        תקליק על תחום עניין שמעניין אותך וכל מה שנשאר לך לעשות זה להזמין את
+        המרצה
+      </p>
+    </aside>
+
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <hr class="light" />
+            <h5 style="padding: 1%;">רשתות חברתיות</h5>
+            <a href="#" title="לא מומש"
+              ><img
+                src="Images/social/facebook.jpg"
+                alt="facebook"
+                height="40"
+                width="40"
+            /></a>
+            <a href="#" title="לא מומש"
+              ><img
+                src="Images/social/instagram.jpg"
+                alt="instagram"
+                height="40"
+                width="40"
+            /></a>
+            <a href="#" title="לא מומש"
+              ><img
+                src="Images/social/twitter.jpg"
+                alt="twitter"
+                height="40"
+                width="40"
+            /></a>
+          </div>
+          <div class="col-12">
+            <hr class="light-100" />
+            <h6>Lilah Burger, Eran Sevil, Tomer Cohen&copy;</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="JS//button.js"></script>
+    <script src="JS/mouseover.js"></script>
+  </body>
+</html>

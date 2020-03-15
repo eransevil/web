@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  display: inline;
+}
+
+
+@media (max-width: 991px) {
+  .display-4 {
+    font-size: 5vw;
+  }
+}
+
+nav li:hover {
+  background-color: rgba(220, 220, 220, 0.699);
+}
+
+footer {
+  clear: both;
+  display: block;
+  background-color: gainsboro;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+footer a {
+  padding: 5px;
+}
+
